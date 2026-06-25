@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VishnuBavan</title>
+    <link rel="icon" href="Chicken_briyani.png">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="header">VishnuBavan</div>
+
+    <div class="container">
+
+    <div class="box1">
+        <ul>
+            <li><a href="#" onclick="filterItems('all')">All Products</a></li>
+            <li><a href="#" onclick="filterItems('breakfast')">Breakfast</a></li>
+            <li><a href="#" onclick="filterItems('maincourse')">Main Course</a></li>
+            <li><a href="#" onclick="filterItems('biriyani')">Biriyani</a></li>
+            <li><a href="#" onclick="filterItems('drinks')">Drinks</a></li>
+            <li><a href="#" onclick="filterItems('desserts')">Desserts</a></li>
+        </ul>
+
+    </div>
+       <div class="box2">
+    
+        <div class="flex-container">
+            <div class="box breakfast">
+                 <img src="Masala_dosa.png" onclick="addToCart('Masala Dosa', 35)">
+                 <h6>Masala Dosa
+                    <br>
+                    <span>Rs 35</span>
+                 </h6>
+            </div>
+            <div class="box breakfast">
+               <img src="Idle.png" onclick="addToCart('Idli', 10)">
+               <h6>Idli
+                <br>
+                <span>Rs 10</span>
+             </h6>
+               </h6>
+           </div>
+           <div class="box breakfast">
+               <img src="Vada.png" onclick="addToCart('Vada', 7)">
+               <h6>Vada
+                <br>
+                <span>Rs 7</span>
+             </h6>
+               </h6>
+           </div>
+           <div class="box breakfast">
+            <img src="Puri.png" onclick="addToCart('Puri', 15)">
+            <h6>Puri
+                <br>
+                <span>Rs 15</span>
+             </h6>
+            </h6>
+        </div>
+         </div>
+
+         
+         <div class="flex-container">
+            
+           
+           <div class="box biriyani">
+               <img src="Chicken_briyani.png" onclick="addToCart('Chicken Biriyani', 120)">
+               <h6>Chicken Biriyani
+                <br>
+                <span>Rs 120</span>
+             </h6>
+               </h6>
+           </div>
+           <div class="box biriyani">
+            <img src="Mutton_briyani.png" onclick="addToCart('Mutton Biriyani', 170)">
+            <h6>Mutton Biriyani
+                <br>
+                <span>Rs 170</span>
+             </h6>
+            </h6>
+        </div>
+        <div class="box biriyani">
+            <img src="Egg_briyani.png" onclick="addToCart('Egg Biriyani', 90)">
+            <h6>Egg Briyani
+                <br>
+                <span>Rs 90</span>
+             </h6>
+            </h6>
+        </div>
+        <div class="box biriyani">
+            <img src="Fish_briyani.png" onclick="addToCart('Fish Biriyani', 145)">
+            <h6>Fish Briyani
+                <br>
+                <span>Rs 145</span>
+             </h6>
+            </h6>
+        </div>
+    
+         </div>
+      
+         
+         <div class="flex-container">
+         
+        <div class="box maincourse">
+            <img src="Gopimanjuriyan.png" onclick="addToCart('GopiManjuriyan', 90)">
+            <h6>Gopimanjuriyan
+                <br>
+                <span>Rs 90</span>
+             </h6>
+            </h6>
+        </div>
+        <div class="box maincourse">
+            <img src="Grillchicken.png" onclick="addToCart('Grilled Chicken', 550)">
+            <h6>Grilledchicken
+                <br>
+                <span>Rs 550</span>
+             </h6>
+            </h6>
+        </div>
+        <div class="box maincourse">
+            <img src="Parrota.png" onclick="addToCart('Parrota', 25)">
+            <h6>Parrota
+                <br>
+                <span>Rs 25</span>
+             </h6>
+            </h6>
+       </div>
+       <div class="box maincourse">
+        <img src="White_rice.png" onclick="addToCart('White Rice', 135)">
+        <h6>White Rice
+            <br>
+            <span>Rs 135</span>
+         </h6>
+        </h6>
+    </div>
+     
+         </div>
+
+
+         <div class="flex-container">
+            <div class="box desserts">
+                 <img src="Brownine.png" onclick="addToCart('Brownine', 55)">
+                 <h6>Brownine
+                    <br>
+                    <span>Rs 55</span>
+                 </h6>
+                 </h6>
+            </div>
+            <div class="box desserts">
+               <img src="Gulab_jamun.png" onclick="addToCart('Gulab Jamun', 20)">
+               <h6>Gulab Jamun
+                <br>
+                <span>Rs 20</span>
+             </h6>
+               </h6>
+           </div>
+           <div class="box desserts">
+               <img src="Icecream.png" onclick="addToCart('Ice Cream',94)">
+               <h6>Icecream
+                <br>
+                <span>Rs 94</span>
+             </h6>
+               </h6>
+           </div>
+           <div class="box desserts">
+            <img src="Chocolate_cake.png" onclick="addToCart('Chocolate Cake', 78)">
+            <h6>Chocolate cake
+                <br>
+                <span>Rs 78</span>
+             </h6>
+            </h6>
+        </div>
+        </div>
+
+
+
+        <div class="flex-container">
+            <div class="box drinks">
+                 <img src="Coca_cola.png" onclick="addToCart('Coca Cola', 57)">
+                 <h6>Cocacola
+                    <br>
+                    <span>Rs 57</span>
+                 </h6>
+                 </h6>
+            </div>
+            <div class="box drinks">
+               <img src="Cold_coffee.png" onclick="addToCart('Cold Coffee', 83)">
+               <h6>Coldcoffee
+                <br>
+                <span>Rs 83</span>
+             </h6>
+               </h6>
+           </div>
+           <div class="box drinks">
+               <img src="Lemon_soda.png" onclick="addToCart('Lemon Soda', 36)">
+               <h6>Lemonsoda
+                <br>
+                <span>Rs 36</span>
+             </h6>
+               </h6>
+           </div>
+           <div class="box drinks">
+            <img src="Butter_milk.png" onclick="addToCart('Butter Milk', 25)">
+            <h6>Buttermilk
+                <br>
+                <span>Rs 25</span>
+             </h6>
+            </h6>
+        </div>
+        
+        </div>
+
+        <div class="flex-container">
+        <div class="box drinks">
+            <img src="Mojito.png" onclick="addToCart('Mojito', 76)">
+            <h6>Mojito
+                <br>
+                <span>Rs 76</span>
+             </h6>
+            </h6>
+        </div>
+        <div class="box drinks">
+            <img src="Sugarcane.png" onclick="addToCart('Sugarcane Juice', 38)">
+            <h6>Sugarcane Juice
+                <br>
+                <span>Rs 38</span>
+             </h6>
+            </h6>
+        </div>
+        
+        </div>
+    </div>
+
+
+    <div class="box3">
+        <div class="billing">
+            <h4 class="title">NEW ORDER</h4>
+            <p class="shop-name">VishnuBavan</p>
+            <div class="cart-container">
+                <ul id="cart-items" style="font-family:'Courier New', Courier, monospace;"></ul>
+            </div>
+    
+            <div class="total-box">
+                <div>Total:<span id="total" style="background-color:antiquewhite;width:80px;height:20px;margin-left:10px;">0</span></div>
+                <button onclick="printBill()">Print Bill</button>
+                <button onclick="clearCart()">Clear</button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+<script>
+
+    function filterItems(category) {
+        let items = document.querySelectorAll('.box');
+    
+        items.forEach(item => {
+            if (category === 'all') {
+                item.style.display = 'block';
+            } else {
+                if (item.classList.contains(category)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            }
+        });
+    }
+
+
+
+
+        let cart = [];
+        
+    
+        function addToCart(name, price) {
+            let item = cart.find(i => i.name === name);
+        
+            if (item) {
+                item.qty++;
+            } else {
+                cart.push({ name: name, price: price, qty: 1 });
+            }
+        
+            updateCart();
+        }
+        
+        
+        function increaseQty(name) {
+            let item = cart.find(i => i.name === name);
+            if (item) {
+                item.qty++;
+                updateCart();
+            }
+        }
+        
+
+        function decreaseQty(name) {
+            let item = cart.find(i => i.name === name);
+        
+            if (item) {
+                if (item.qty > 1) {
+                    item.qty--;
+                } else {
+                    
+                    cart = cart.filter(i => i.name !== name);
+                }
+                updateCart();
+            }
+        }
+        
+        
+        function removeItem(name) {
+            cart = cart.filter(i => i.name !== name);
+            updateCart();
+        }
+        
+    
+        function updateCart() {
+            let cartList = document.getElementById("cart-items");
+            let total = 0;
+        
+            cartList.innerHTML = "";
+        
+            cart.forEach(item => {
+                total += item.price * item.qty;
+        
+                let li = document.createElement("li");
+        
+                li.innerHTML = `
+                    ${item.name} - ${item.price} x ${item.qty} <br>
+                    <button onclick="increaseQty('${item.name}')" style="border:3px solid grey;color:green">+</button>
+                    <button onclick="decreaseQty('${item.name}')" style="border:3px solid grey;color:red">-</button>
+                    <button onclick="removeItem('${item.name}')" style="border:2px solid red;color:red">Remove</button>
+                    <hr>
+                `;
+        
+                cartList.appendChild(li);
+            });
+        
+            document.getElementById("total").innerText = total;
+        }
+    
+    
+        function printBill() {
+            let content = "<h2>VishnuBavan</h2>";
+            content += "<hr>";
+        
+            cart.forEach(item => {
+                content += `${item.name} - ${item.price} x ${item.qty} = ${item.price * item.qty}<br>`;
+            });
+        
+            content += "<hr>";
+            content += `<h3>Total: ${document.getElementById("total").innerText}</h3>`;
+        
+            let printWindow = window.open('', '', 'width=300,height=500');
+            printWindow.document.write(content);
+            printWindow.document.close();
+            printWindow.print();
+        }
+        
+        function clearCart() {
+            cart = [];
+            updateCart();
+        }
+        
+        </script>
+
+
+
+</body>
+</html>
