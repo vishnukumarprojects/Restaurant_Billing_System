@@ -42,6 +42,8 @@ body{
     flex-direction: column;
     height: calc(100vh - 39px); 
     position: sticky;
+    position: sticky;
+top: 39px;
  }
  .box1 li:first-child{
     margin-top: 100px;
