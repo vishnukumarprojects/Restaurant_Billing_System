@@ -36,9 +36,12 @@ body{
     width: 250px;
     flex-shrink: 0;
     margin-top: 39px;
+     margin-right: 20px;
     background-color: beige;
     display: flex;
     flex-direction: column;
+    height: calc(100vh - 39px); 
+    position: stick
  }
  .box1 li:first-child{
     margin-top: 100px;
